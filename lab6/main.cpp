@@ -5,6 +5,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 #include <iomanip>
+//g++ main.cpp -lGLEW -lGL -lGLU -lsfml-graphics -lsfml-window -lsfml-system -I/usr/include/glm
 
 // Функция проверки столкновений камеры со сферой
 bool checkSphereCollision(const glm::vec3 &cameraPos, const glm::vec3 &sphereCenter, float sphereRadius, float cameraHeight) {
