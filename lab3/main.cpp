@@ -1,7 +1,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/OpenGL.hpp>
 #include <GL/glu.h>
-#include <cmath> // Для использования функций sin и cos
+#include <cmath>
 
 // Параметры камеры
 float cameraX = 0.0f, cameraY = 0.0f, cameraZ = 5.0f;
