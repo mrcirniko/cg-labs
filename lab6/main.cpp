@@ -22,7 +22,7 @@ int main() {
     const int width = 1280;
     const int height = 1080;
 
-    sf::RenderWindow window(sf::VideoMode(width, height), "Ray Tracing with GLSL", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(width, height), "lab6", sf::Style::Close);
     window.setVerticalSyncEnabled(true);
     window.setMouseCursorGrabbed(true);
     window.setMouseCursorVisible(false);
