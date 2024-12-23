@@ -73,7 +73,6 @@ GLuint loadTexture(const char* path) {
     GLuint textureID;
     glGenTextures(1, &textureID);
     glBindTexture(GL_TEXTURE_2D, textureID);
-    // Загрузка изображения с помощью SFML
     sf::Image imgData;
     if (!imgData.loadFromFile(path)) {
         std::cerr << "Failed to load texture" << std::endl;
@@ -321,7 +320,6 @@ int main() {
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
-        // Обновление окна
         window.display();
     }
 
