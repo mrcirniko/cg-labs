@@ -8,7 +8,7 @@ int main() {
     const int width = 800;
     const int height = 600;
 
-    sf::RenderWindow window(sf::VideoMode(width, height), "Ray Tracing with GLSL", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(width, height), "lab5", sf::Style::Close);
     window.setVerticalSyncEnabled(true);
     window.setMouseCursorGrabbed(true);
     window.setMouseCursorVisible(false);
